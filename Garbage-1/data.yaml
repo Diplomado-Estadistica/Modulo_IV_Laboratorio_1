@@ -1,0 +1,14 @@
+path: C:/Users/VALERIA/Documents/DIPLOMADO/Modulo 4/Laboratorio 1/Garbage-1
+train: C:/Users/VALERIA/Documents/DIPLOMADO/Modulo 4/Laboratorio 1/Garbage-1/train/images
+val: C:/Users/VALERIA/Documents/DIPLOMADO/Modulo 4/Laboratorio 1/Garbage-1/valid/images
+test: C:/Users/VALERIA/Documents/DIPLOMADO/Modulo 4/Laboratorio 1/Garbage-1/test/images
+
+nc: 10
+names: ['battery', 'cardboard', 'clothes', 'glass', 'metal', 'miscellaneous trash', 'organic', 'paper', 'plastic', 'shoes']
+
+roboflow:
+  workspace: garbage-detection-nalan
+  project: garbage-euqch
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/garbage-detection-nalan/garbage-euqch/dataset/1
